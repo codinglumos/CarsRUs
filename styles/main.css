@@ -1,0 +1,95 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+  padding: 5px;
+  display:block;
+  
+}
+
+h1 {
+    font-size:xx-large;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0.25rem;
+    justify-content: center;
+}
+
+#orderButton {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color:green;
+    color: azure;
+    font-size: 1rem;
+    align-self:right;
+}
+
+.options {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 1px solid purple;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem green;
+    padding: 5px;
+    display:flow-root;
+    flex-direction: row;
+    background-color:aliceblue;
+    color:darkblue;
+    justify-content: space-around;
+}
+
+.container {
+    justify-content: space-around;
+    flex-direction:row;
+    display: flex; 
+}
+
+.customOrders {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 1px solid purple;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem green;
+    background-color: aquamarine;
+    color:darkblue;
+}
+
+.img {
+    border: 1px solid black;
+	border-radius: 50%;
+	margin-top: .5px;
+    margin-bottom: 10px;
+	align-content: center;
+    width: 130px;
+    height: 130px;
+    display: block;
+    size: 4in;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tech, #paint, #interior, #wheel {
+    background-color:aliceblue;
+    color:darkblue;
+    border: 1px solid purple;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem green;
+}
